@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: #ccc;
+}
+
+.menu ul{
+    list-style-type: none;
+    text-align: right;
+    padding: 20px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a{
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0.267);
+    padding: 15px;
+    font-size: 12px;
+    border: 1px solid #fff;
+}
+
+.menu a:hover{
+    background-color: rgba(0, 0, 0, 0.507);
+    transform: scale(1.08);
+    transition: all 0.2s ease-in-out;
+}
+
+header{
+    height: 700px;
+    background-image: url(imagens/bg-4.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    display: block;
+}
+
+.banner{
+    margin: 200px auto 0;
+    width: 80%;
+    text-align: center;
+ 
+}
+
+.banner h1{
+   
+    font-size: 52px;
+    color: #fff;
+    text-shadow: 3px 3px 3px black;
+    text-transform: uppercase;
+}
+.banner p{
+    display:inline-block;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.26);
+    padding: 10px;
+    font-size: 19px;
+    border-bottom: 2px solid #fff;
+}
+
+section{
+    width: 80%;
+    margin: 50px auto;
+}
+
+article{
+    border-radius: 5px;
+    background-color: #fff;
+    padding: 15px;
+    margin: 50px;
+}
+
+article h2{
+    border-radius: 5px;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+article a {
+    display: inline-block;
+    background-color: #ddd;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+footer{
+    height: 200px;
+    background-color: #808080;
+}
+
+footer p{
+    text-align: center;
+    padding: 80px;
+    text-shadow: 2px 2px 2px black;
+    color: #fff;
+}
