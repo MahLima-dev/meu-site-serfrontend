@@ -1,102 +1,48 @@
-body{
-    margin: 0 0 auto auto;
-    font-family: sans-serif;
-    background-color: #ccc;
-}
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Primeiro Projeto Frontend</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li><a href="">INICIO</a></li>
+                <li><a href="">CURSOS</a></li>
+                <li><a href="">BLOG</a></li>
+            </ul>
+        </nav>
+        <section class="banner">
+            <h1>cursos serfrontend</h1>
+            <p>Tudo o que precisa saber para iniciar na carreira</p>
+        </section>
+    </header>
+    <section>
+        <article>
+            <h2>O HTML</h2>
+            <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
 
-.menu ul{
-    list-style-type: none;
-    text-align: right;
-    padding: 20px;
-}
+            <a href="#">Saiba mais</a>
+        </article>
+        <article>
+            <h2>O CSS</h2>
+            <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
 
-.menu li {
-    display: inline-block;
-}
+            <a href="#">Saiba mais</a>
+        </article>
 
-.menu a{
-    display: block;
-    color: #fff;
-    text-decoration: none;
-    background-color: rgba(0, 0, 0, 0.267);
-    padding: 15px;
-    font-size: 12px;
-    border: 1px solid #fff;
-}
+        <article>
+            <h2>O Javascript</h2>
+            <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.</p>
 
-.menu a:hover{
-    background-color: rgba(0, 0, 0, 0.507);
-    transform: scale(1.08);
-    transition: all 0.2s ease-in-out;
-}
-
-header{
-    height: 700px;
-    background-image: url(imagens/bg-4.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-size: cover;
-    display: block;
-}
-
-.banner{
-    margin: 200px auto 0;
-    width: 80%;
-    text-align: center;
- 
-}
-
-.banner h1{
-   
-    font-size: 52px;
-    color: #fff;
-    text-shadow: 3px 3px 3px black;
-    text-transform: uppercase;
-}
-.banner p{
-    display:inline-block;
-    color: #fff;
-    background-color: rgba(0, 0, 0, 0.26);
-    padding: 10px;
-    font-size: 19px;
-    border-bottom: 2px solid #fff;
-}
-
-section{
-    width: 90%;
-    margin: auto;
-    max-width: 860px;
-}
-
-article{
-    border-radius: 5px;
-    background-color: #fff;
-    padding: 15px;
-    margin: 50px;
-}
-
-article h2{
-    border-radius: 5px;
-    background-color: #ddd;
-    padding: 10px;
-}
-
-article a {
-    display: inline-block;
-    background-color: #ddd;
-    text-decoration: none;
-    padding: 10px;
-    border-radius: 5px;
-}
-
-footer{
-    height: 100px;
-    background-color: #808080;
-}
-
-footer p{
-    text-align: center;
-    padding: 80px;
-    text-shadow: 2px 2px 2px black;
-    color: #fff;
-}
+            <a href="#">Saiba mais</a>
+        </article>
+     </section>
+    <footer>
+        <p>Copyright © 2016</p>
+    </footer>  
+</body>
+</html>
