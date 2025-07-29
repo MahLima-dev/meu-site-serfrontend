@@ -19,7 +19,7 @@ Este é um projeto simples de site estático desenvolvido com HTML e CSS, como p
 
 Você pode visualizar o projeto publicado pelo GitHub Pages clicando no link abaixo:
 
-🔗 [https://jamalburguer.github.io/meu-site-serfrontend](https://jamalburguer.github.io/meu-site-serfrontend)
+🔗 [https://jamalburguer.github.io/meu-site-serfrontend](https://mahlima-dev.github.io/meu-site-serfrontend/)
 
 ---
 
@@ -42,4 +42,4 @@ Este projeto tem como objetivo reforçar meus conhecimentos básicos de HTML e C
 
 ## 🚀 Autor
 
-Desenvolvido por [JamalBurguer](https://github.com/JamalBurguer).
+Desenvolvido por [MahLima-dev](https://github.com/mahlima-dev).
